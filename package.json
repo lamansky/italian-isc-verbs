@@ -1,0 +1,38 @@
+{
+  "name": "italian-isc-verbs",
+  "version": "1.0.0",
+  "description": "A list of –ire verbs adhering to the –isc– conjugation.",
+  "keywords": [
+    "italian",
+    "conjugation",
+    "verbs",
+    "list"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/italian-isc-verbs",
+  "repository": "lamansky/italian-isc-verbs",
+  "main": "index.js",
+  "files": [
+    "always.json",
+    "sometimes.json"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "deduplicate": "^1.0.0",
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
